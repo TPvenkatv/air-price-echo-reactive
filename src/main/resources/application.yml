@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: Venkat.Vajrala-air-price-echo-reactive
+server:
+  port: 50003
+
+logging:
+  level:
+    org.springframework: debug
