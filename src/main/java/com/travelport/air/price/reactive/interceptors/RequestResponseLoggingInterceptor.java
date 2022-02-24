@@ -11,6 +11,7 @@ import org.springframework.util.StreamUtils;
 import java.io.IOException;
 import java.nio.charset.Charset;
 
+// This class is not being used.
 public class RequestResponseLoggingInterceptor implements ClientHttpRequestInterceptor {
 
     private final Logger log = LoggerFactory.getLogger(this.getClass());

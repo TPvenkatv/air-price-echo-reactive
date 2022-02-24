@@ -1,8 +1,5 @@
 package com.travelport.air.price.reactive.config;
 
-//import lombok.extern.slf4j.Slf4j;
-//import org.slf4j.Logger;
-//import org.slf4j.LoggerFactory;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -25,11 +22,8 @@ import reactor.netty.http.client.HttpClient;
 
 @Configuration
 @EnableWebFlux
-//@Slf4j
 public class WebFluxConfig implements WebFluxConfigurer
 {
-    //Logger logger = LoggerFactory.getLogger(WebFluxConfig.class);
-
     @Autowired
     private ObjectMapper objectMapper;
 

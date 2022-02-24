@@ -60,23 +60,6 @@ public class OffersController {
                     return body;
                 });
 
-//        Mono<ResponseEntity<OfferQueryBuildFromProducts>> responseEntity = ResponseEntity.status(HttpStatus.OK)
-//                .header("TraceId", traceId)
-//                .header("XAUTH_TRAVELPORT_ACCESSGROUP", XAUTH_TRAVELPORT_ACCESSGROUP)
-//                .header("TravelportPlusSessionID", travelportPlusSessionID)
-//                .body(offerQueryBuildFromProductsResp);
         return responseEntity;
     }
-
-//    private Mono<StudentDto> convert(Mono<OfferQueryBuildFromProducts> offerQueryBuildFromProductsResp) {
-//        return offerQueryBuildFromProductsResp.map(
-//                offerQueryBuildFromProducts -> {
-//                    ResponseEntity.status(HttpStatus.OK)
-//                            .header("TraceId", traceId)
-//                            .header("XAUTH_TRAVELPORT_ACCESSGROUP", XAUTH_TRAVELPORT_ACCESSGROUP)
-//                            .header("TravelportPlusSessionID", travelportPlusSessionID)
-//                            .body(offerQueryBuildFromProductsResp);
-//                }
-//        );
-//    }
 }
